@@ -33,7 +33,7 @@ The console can be used for :
 
 To actually make it work, you must first install all python requirements. A simple command will do it (execute it in the repository folder) :
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 then get a rawg api key from https://rawg.io/apidocs
