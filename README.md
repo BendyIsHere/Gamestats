@@ -24,7 +24,7 @@ It could be used for :
 
   SETUP :
   
-To actually make it work, you must get a rawg api key, which isn't hard to do : https://rawg.io/apidocs
+To actually make it work, you must first install all python requirements [pip install requirements.txt], then get a rawg api key, which isn't hard to do : https://rawg.io/apidocs
 
 After you're done, copy the key, and use it in this command :
 ## Windows
@@ -33,10 +33,15 @@ setx RAWG_API_KEY "[YOUR KEY HERE]" /M
 ```
 ## Linux
  - works on most systems
+
+Enter as root :
 ```
 sudo bash
 ```
+Set the environment variable  :
 ```
 echo 'RAWG_API_KEY="[YOUR KEY HERE]"' /etc/environment
 exit
 ```
+Afterwards just
+
