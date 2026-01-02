@@ -55,5 +55,5 @@ Set the environment variable  :
 echo 'RAWG_API_KEY="[YOUR KEY HERE]"' /etc/environment
 exit
 ```
-Afterwards just
+Afterwards just use it however you want!!
 
