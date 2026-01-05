@@ -55,5 +55,40 @@ Set the environment variable  :
 echo 'RAWG_API_KEY="[YOUR KEY HERE]"' /etc/environment
 exit
 ```
-Afterwards just use it however you want!!
+Afterwards you're done with the setup!!
+
+---
+# USAGE
+BEWARE : These are for gstats.py, not for the console. If you need to see the console commands just type : help
+
+## Functions :
+## findgamestats [gamename] 
+ use it to obtain a dictionary of different statistics of a chosen game
+
+### EXAMPLES:
+```python
+print(findgamestats["name"])
+```
+```python
+print(findgamestats["rating"])
+```
+---
+## findrandom [pages] 
+ the higher the number the more random the result will get. Works like findgamestats but randomized
+
+###  EXAMPLES:
+```python
+ print(findrandom["name"])
+```
+
+--------------
+# ALL OF THE STATISTICS YOU CAN RETRIEVE :
+       [string] "name" - game name
+       [string] "rating" - game rating
+       [string] "ratings" - amount of ratings
+       [list]   "genres" - list of game genres
+       [string] "released" - game release date
+       [list]   "stores" - where you can buy the game
+       [list]   "tags" - game tags
+       [string] "metacritic" - game score (weighted average)
 
