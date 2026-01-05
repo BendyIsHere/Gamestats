@@ -26,7 +26,7 @@ It can be used as a **module** in other projects, or **standalone** via the cons
 
 ---
 
-## ⚙️ Setup
+# ⚙️ Setup
 
 To actually make it work, you must first install all python requirements. A simple command will do it (execute it in the repository folder) :
 ```
@@ -36,11 +36,11 @@ pip install -r requirements.txt
 Then get a rawg api key from https://rawg.io/apidocs
 
 After you're done, copy the key, and use it in this command :
-## Windows
+### Windows
 ```
 setx RAWG_API_KEY "[YOUR KEY HERE]" /M
 ```
-## Linux
+### Linux
  - works on most systems
 
 Enter as root :
