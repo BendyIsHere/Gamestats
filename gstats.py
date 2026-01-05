@@ -40,14 +40,14 @@ statnums = {
 
 # --------------
 # ALL STATISTICS YOU CAN RETRIEVE :
-#        "name"
-#        "rating"
-#        "ratings"
-#        "genres"
-#        "released"
-#        "stores"
-#        "tags"
-#        "metacritic"
+#        [string] "name" - game name
+#        [string] "rating" - game rating
+#        [string] "ratings" - amount of ratings
+#        [list]   "genres" - list of game genres
+#        [string] "released" - game release date
+#        [list]   "stores" - where you can buy the game
+#        [list]   "tags" - game tags
+#        [string] "metacritic" - game score (weighted average)
 
 
 # ------------------------------------- CASUAL FUNCTIONS --------------------------------
