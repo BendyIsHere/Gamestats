@@ -25,7 +25,7 @@ statnums = {
 
 # Functions :
 
-# findgamestats [gamename] - use it to obtain a dictionary of different statistics of a chosen game
+# findgame [gamename] - use it to obtain a dictionary of different statistics of a chosen game
 
 #  EXAMPLES:
 # print(findgamestats["name"])
